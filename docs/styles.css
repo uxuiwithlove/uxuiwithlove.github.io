@@ -91,6 +91,7 @@ section {
 }
 
 .skills ul,
+.skills p,
 .education p {
     padding-left: 20px;
 }
@@ -119,11 +120,11 @@ footer a:hover {
         margin: 20px auto;
         padding: 15px;
     }
-    
+
     h1 {
         font-size: 1.8em;
     }
-    
+
     .subtitle {
         font-size: 1em;
     }
@@ -132,7 +133,8 @@ footer a:hover {
         font-size: 1.2em;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 0.95em;
     }
 
