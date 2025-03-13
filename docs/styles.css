@@ -18,6 +18,9 @@ body {
   margin: 40px auto;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrap {
   display: flex;
 }
 
@@ -96,7 +99,8 @@ h3 {
   text-align: left;
 }
 
-.contact p {
+.contact p,
+.skills p {
   margin: 0px 0;
 }
 
@@ -138,6 +142,7 @@ section {
 
 .about,
 .experience,
+.competence,
 .education {
   display: flex;
   flex-direction: row;
@@ -151,7 +156,7 @@ section {
 
 .skills ul,
 .job ul,
-.skills p {
+.competence ul {
   padding-left: 20px;
 }
 
@@ -160,13 +165,17 @@ section {
 /* ============================== */
 
 footer {
-  position: absolute;
-  bottom: 0;
   font-size: 0.9em;
+  background-color: #262626;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 0;
 }
 
 footer a {
-  color: #262626;
+  color: #fdfdfd;
   text-decoration: none;
   font-weight: 600;
 }
@@ -187,8 +196,10 @@ footer a:hover {
     padding: 15px;
   }
 
+  .wrap,
   .about,
   .experience,
+  .competence,
   .education {
     display: block;
   }
